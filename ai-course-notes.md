@@ -1,6 +1,94 @@
 # Artificial Intelligence A-Z: Learn How To Build An AI - Notes
 
 
+## Table Of Contents
+
+  - [Overview](#overview)
+  - [Section 1: Welcome to the course](#section-1-welcome-to-the-course)
+    - [1. Why AI ?](#1-why-ai-)
+    - [2. Course structure : OK](#2-course-structure--ok)
+    - [4. Anaconda installation : OK](#4-anaconda-installation--ok)
+    - [5. Extra Materials : sdsclub.com/artificial-intelligence-a-z-learn-how-to-build-an-ai](#5-extra-materials--sdsclubcomartificial-intelligence-a-z-learn-how-to-build-an-ai)
+  - [Section 2: - Part 0 - Fundamentals Of Reinforcement Learning](#section-2---part-0---fundamentals-of-reinforcement-learning)
+    - [6. the problem setup :](#6-the-problem-setup-)
+  - [Section 3: Q-Learning intuition](#section-3-q-learning-intuition)
+    - [7. plan of attack](#7-plan-of-attack)
+    - [8. What is reinforcement learning ?](#8-what-is-reinforcement-learning-)
+    - [9. The Bellman Equation](#9-the-bellman-equation)
+    - [10. The "Plan"](#10-the-plan)
+    - [11. Markov Decision Process (MDP)](#11-markov-decision-process-mdp)
+    - [12. Policy vs Plan](#12-policy-vs-plan)
+    - [13. Living Penalty](#13-living-penalty)
+    - [14. Q-Learning intuition](#14-q-learning-intuition)
+    - [15. Temporal Difference](#15-temporal-difference)
+  - [Section 4: Q-Learning Visualization](#section-4-q-learning-visualization)
+    - [16. Gridworld set up](#16-gridworld-set-up)
+    - [17. Q-Learning Visualization](#17-q-learning-visualization)
+  - [Section 5: - Part 1 - Deep Q-Learning](#section-5---part-1---deep-q-learning)
+    - [18. Intro part 1](#18-intro-part-1)
+  - [Section 6: Deep Q-Learning Intuition](#section-6-deep-q-learning-intuition)
+    - [19. Plan of attack](#19-plan-of-attack)
+    - [20. Deep Q-Learning Intuition (Learning)](#20-deep-q-learning-intuition-learning)
+    - [21. Deep Q-Learning Intuition (Acting)](#21-deep-q-learning-intuition-acting)
+    - [22. Experience Replay](#22-experience-replay)
+    - [23. Action Selection Policies](#23-action-selection-policies)
+  - [Section 7: Deep Q-Learning Implementation](#section-7-deep-q-learning-implementation)
+    - [24. Plan of Attack](#24-plan-of-attack)
+    - [25. Project resources](#25-project-resources)
+    - [26. Getting started](#26-getting-started)
+  - [Section 8: Deep Q-Learning Visualization](#section-8-deep-q-learning-visualization)
+    - [43. Self-Driving Car - Level 1](#43-self-driving-car---level-1)
+    - [44. Self-Driving Car - Level 2](#44-self-driving-car---level-2)
+    - [45. Self-Driving Car - Level 3](#45-self-driving-car---level-3)
+    - [46. Self-Driving Car - Level 4](#46-self-driving-car---level-4)
+    - [47. Challenges Solutions](#47-challenges-solutions)
+  - [Section 9:  Part 2 - Deep Convolutional Q-Learning](#section-9--part-2---deep-convolutional-q-learning)
+    - [48. Welcome to Part 2 - Deep Convolutional Q-Learning](#48-welcome-to-part-2---deep-convolutional-q-learning)
+  - [Section 10: Deep Convolutional Q-Learning Intuition](#section-10-deep-convolutional-q-learning-intuition)
+    - [49. Plan of Attack](#49-plan-of-attack)
+    - [50. Deep Convolutional Q-Learning Intuition](#50-deep-convolutional-q-learning-intuition)
+    - [51. Eligibility trace](#51-eligibility-trace)
+  - [Section 11: Deep Convolutional Q-Learning Implementation](#section-11-deep-convolutional-q-learning-implementation)
+    - [52. Plan of Attack](#52-plan-of-attack)
+    - [54. to 69 : Deep Q-Learning Implementation for game of Doom](#54-to-69--deep-q-learning-implementation-for-game-of-doom)
+  - [Section 12: Deep Convolutional Q-Learning Visualization](#section-12-deep-convolutional-q-learning-visualization)
+    - [69 - 73](#69---73)
+  - [Section 13: - Part 3 - A3C](#section-13---part-3---a3c)
+    - [74. Welcome to Part3 - A3C](#74-welcome-to-part3---a3c)
+  - [Section 14: A3C Intuition](#section-14-a3c-intuition)
+    - [75. Plan of Attack](#75-plan-of-attack)
+    - [76. The 3 A's of A3C](#76-the-3-as-of-a3c)
+    - [77. Actor-Critic](#77-actor-critic)
+    - [78. Asynchronous](#78-asynchronous)
+    - [79. Advantage](#79-advantage)
+    - [80. Long Short-Term Memory (LSTM)](#80-long-short-term-memory-lstm)
+  - [Section 15: A3C Implementation](#section-15-a3c-implementation)
+    - [81 to 96](#81-to-96)
+  - [Section 16: ASC Visualization](#section-16-asc-visualization)
+    - [97 - 98](#97---98)
+  - [Section 17: Annex 1: Artificial Neural Networks](#section-17-annex-1-artificial-neural-networks)
+  - [Section 18: Annex 2: Convolutional Neural Networks](#section-18-annex-2-convolutional-neural-networks)
+  - [Section 19: Bonus Lectures](#section-19-bonus-lectures)
+    - [124. YOUR SPECIAL BONUS](#124-your-special-bonus)
+- [References :](#references-)
+
+## Overview
+
+**Courses Highlights**
+
+```
+- Build an AI
+- Understand the theory behind Artificial Intelligence
+- Make a virtual Self Driving Car
+- Make an AI to beat games
+- Solve Real World Problems with AI
+- Master the State of the Art AI models
+- Q-Learning
+- Deep Q-Learning
+- Deep Convolutional Q-Learning
+- A3C
+```
+
 ## Section 1: Welcome to the course  
 
 ### 1. Why AI ? 
@@ -477,68 +565,72 @@ requirements :
 
 ### 124. YOUR SPECIAL BONUS
 
-  Hey AI Pro!
+Hey AI Pro!
 
-  Congratulations on completing the Artificial Intelligence A-Z course or even if you completed just part of it! Congrats, it's a great step forward into the World of AI.
+Congratulations on completing the Artificial Intelligence A-Z course or even if you completed just part of it! Congrats, it's a great step forward into the World of AI.
 
-  What was your favourite part? We really enjoyed watching our AI play Doom! Did you see the expressions on our faces when it killed 5 monsters and got to the end? :)
+What was your favourite part? We really enjoyed watching our AI play Doom! Did you see the expressions on our faces when it killed 5 monsters and got to the end? :)
 
-  So now you're probably wondering...
+So now you're probably wondering...
 
-  What's next?
+What's next?
 
-  Well, there are lots of ways you can go from here.
+Well, there are lots of ways you can go from here.
 
-  There are lots of amazing and exciting careers you can build for yourself.
+There are lots of amazing and exciting careers you can build for yourself.
 
-  In fact, there are so many paths, that to help you see the big picture we've put together a map for you!
+In fact, there are so many paths, that to help you see the big picture we've put together a map for you!
 
-  You can find it here:
-
-  https://sdsclub.com/learning-paths/
+You can find it here: https://sdsclub.com/learning-paths/
 
 
-  It shows in which order to best take our courses.
+It shows in which order to best take our courses.
 
-  And if you want our opinion...
+And if you want our opinion...
 
-  Then we truly believe that our Best-Selling Deep Learning A-Z course will be a great supplement to what you learned in the AI course.
+Then we truly believe that our Best-Selling Deep Learning A-Z course will be a great supplement to what you learned in the AI course.
 
-  You probably have noticed that a large component of the AI algorithms are Artificial Neural Networks.
+You probably have noticed that a large component of the AI algorithms are Artificial Neural Networks.
 
-  And even in this course, we have already touched on ANNs and CNNs.
+And even in this course, we have already touched on ANNs and CNNs.
 
-  Well, in the Deep Learning course we really take it to the next level and talk even more Neural Networks:
+Well, in the Deep Learning course we really take it to the next level and talk even more Neural Networks:
 
   - Recurrent Neural Networks (RNNs, including LSTMs)
   - Self Organising Maps (SOMs)
   - Boltzmann Machines (RBMs)
   - AutoEncoders (AEs)
 
-  This is a comprehensive course on Neural Networks (the most robust one we know of!) and covers both intuition and practical application.
+This is a comprehensive course on Neural Networks (the most robust one we know of!) and covers both intuition and practical application.
 
-  If you haven't checked out our Deep Learning A-Z course yet, then this could be a great next step in your career-building.
+If you haven't checked out our Deep Learning A-Z course yet, then this could be a great next step in your career-building.
 
-  Plus, to say thank you for taking our AI course, we'd like to invite you into the Deep Learning A-Z course with a special 90% off coupon:
+Plus, to say thank you for taking our AI course, we'd like to invite you into the Deep Learning A-Z course with a special 90% off coupon:
 
-  https://www.udemy.com/course/deeplearning/?couponCode=YESDATA2022NOV
+- https://www.udemy.com/course/deeplearning/?couponCode=YESDATA2022NOV
 
-  You are making great progress. Keep ROCKING! 
+You are making great progress. Keep ROCKING! 
+
+## Personal Notes
+
+If you want to go even further these courses below might be a big help.
+
+- [What Is an AI Engineer, and How to Become One? - Course article](https://www.coursera.org/articles/ai-engineer)
+
+- [AI For Everyone on](#): 
+  - [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone/)
+  - [Coursera](https://www.coursera.org/learn/ai-for-everyone?trk_ref=articleProductCard)
+- [IBM AI Engineering Certificat Professionnel](https://www.coursera.org/professional-certificates/ai-engineer?trk_ref=articleProductCard#courses)
 
 
-# References : 
 
-- Additional Resource
-https://www.tfcertification.com/pages/artificial-intelligence
+## References 
 
-- AI wikipedia : 
-https://en.wikipedia.org/wiki/Artificial_intelligence
+- [Additional Resource](https://www.tfcertification.com/pages/artificial-intelligence)
 
-- DeepMind : 
-https://www.deepmind.com/tags/reinforcement-learning?fc63e648_page=8
+- [AI wikipedia](https://en.wikipedia.org/wiki/Artificial_intelligence)
 
-- Reinforcement learning Implementation with TensorFlow : 
-https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0
+- [DeepMind](https://www.deepmind.com/tags/reinforcement-learning?fc63e648_page=8)
 
-- IBM - What Is an AI Engineer? (And How to Become One)
-https://www.coursera.org/articles/ai-engineer
+- [Reinforcement learning Implementation with TensorFlow](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
+

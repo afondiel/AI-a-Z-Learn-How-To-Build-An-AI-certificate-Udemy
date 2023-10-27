@@ -1,0 +1,49 @@
+Course Structure
+Hi guys,
+
+welcome again to the course.
+
+It's important to take a first step back now to clearly visualize the structure of this course, which is the following:
+
+Part 0 - Fundamentals of Reinforcement Learning
+- Q-Learning Intuition
+- Q-Learning Visualization
+
+Part 1 - Deep Q-Learning
+- Deep Q-Learning Intuition
+- Deep Q-Learning Implementation
+- Deep Q-Learning Visualization
+
+Part 2 - Deep Convolutional Q-Learning
+- Deep Convolutional Q-Learning Intuition
+- Deep Convolutional Q-Learning Implementation
+- Deep Convolutional Q-Learning Visualization
+
+Part 3 - A3C
+- A3C Intuition
+- A3C Implementation
+- A3C Visualization
+
+Annex 1: Artificial Neural Networks
+
+Annex 2: Convolutional Neural Networks
+
+In each of these parts you will get:
+
+Intuition Lectures
+
+Code Templates
+
+Additional Resource
+
+You can find all the code templates and additional resource on the following link:
+
+https://www.tfcertification.com/pages/artificial-intelligence
+
+Inside, you can get the Folder Structure of the course in Section 1, which is the whole course folder containing our three modules in empty sub-folders. Then you can populate them with either your own codes or the code templates, as you progress in the course.
+
+We wish you a great AI journey!
+
+Cheers,
+
+Kirill & Hadelin

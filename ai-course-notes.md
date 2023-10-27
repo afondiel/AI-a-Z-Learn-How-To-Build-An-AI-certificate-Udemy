@@ -3,7 +3,6 @@
 
 ## Table Of Contents
 
-  - [Overview](#overview)
   - [Section 1: Welcome to the course](#section-1-welcome-to-the-course)
     - [1. Why AI ?](#1-why-ai-)
     - [2. Course structure : OK](#2-course-structure--ok)
@@ -72,22 +71,6 @@
     - [124. YOUR SPECIAL BONUS](#124-your-special-bonus)
 - [References :](#references-)
 
-## Overview
-
-**Courses Highlights**
-
-```
-- Build an AI
-- Understand the theory behind Artificial Intelligence
-- Make a virtual Self Driving Car
-- Make an AI to beat games
-- Solve Real World Problems with AI
-- Master the State of the Art AI models
-- Q-Learning
-- Deep Q-Learning
-- Deep Convolutional Q-Learning
-- A3C
-```
 
 ## Section 1: Welcome to the course  
 
